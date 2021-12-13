@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/pexels-markus-spiske-1089438.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.contenedor{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 600px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+    box-shadow: black 20px 30px 30px;
+}
+
+.resultado{
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    margin-top: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: rgb(24, 27, 24);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(58, 209, 20);
+    text-shadow: rgb(0, 128, 0) 0px 0px 30px;
+    letter-spacing: 5px;
+    transition: all 0.5s ease;
+
+
+}
+.padnumerico ul{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    border-radius: 50%;
+    list-style: none;
+
+}
+.padnumerico ul input{
+    
+    display: flex;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 75px;
+    height: 75px;
+    border: solid 3px rgb(77, 76, 76);
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: 'Bakbak One', cursive;
+    color: rgb(5, 199, 5);
+    text-shadow: green 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.938);
+    box-shadow: black 0px 0px 20px;
+    transition: all 0.2s ease;
+    margin-top: 5px;
+
+    
+}
+.padnumerico ul input:hover{
+    transform: scale(0.95);
+    color: rgb(157, 255, 0);
+    text-shadow: rgb(34, 187, 3) 0px 0px 20px;
+    background-color: rgb(44, 44, 44);
+    transition: all 0.1s ease;
+}
+
+.operador ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bakbak One', cursive;
+
+    
+}
+.operador ul input{
+    display: flex;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    list-style: none;
+    width: 60px;
+    height:60px;
+    border: solid 3px rgb(77, 76, 76);
+    border-radius: 50%;
+    font-size: 35px;
+    color: rgb(5, 199, 5);
+    text-shadow: green 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.925);
+    text-align: center;
+    transition: all 0.1s ease;
+    font-family: 'Bakbak One', cursive;
+}
+.operador ul input:hover{
+    transform: scale(0.95);
+    color: rgb(157, 255, 0);
+    text-shadow: rgb(34, 187, 3) 0px 0px 20px;
+    background-color: rgb(44, 44, 44);
+    transition: all 0.1s ease;
+}
+
+.igualreset{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    font-family: 'Bakbak One', cursive;
+}
+#igual{
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 70px;
+    margin-top: -20px;
+    color: rgb(199, 131, 5);
+    border: solid 3px rgb(77, 76, 76);
+    border-radius: 50px;
+    text-shadow: rgb(119, 0, 0) 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.685);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Bakbak One', cursive;
+}
+#reset{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    margin-top: -20px;
+    color: rgb(199, 131, 5);
+    border: solid 3px rgb(77, 76, 76);
+    border-radius: 50%;
+    text-shadow: rgb(119, 0, 0) 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.685);
+    transition: all 0.5s ease;
+    font-size: 35px;
+    font-family: 'Bakbak One', cursive;
+}
+
+#igual:hover{
+    transform: scale(0.95);
+    color: rgb(255, 238, 0);
+    text-shadow: rgb(136, 122, 1) 0px 0px 20px;
+    background-color: rgb(44, 44, 44);
+    transition: all 0.1s ease;
+}
+#reset:hover{
+    transform: scale(0.95);
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(187, 3, 3) 0px 0px 30px;
+    background-color: rgb(44, 44, 44);
+    transition: all 0.1s ease;
+}
